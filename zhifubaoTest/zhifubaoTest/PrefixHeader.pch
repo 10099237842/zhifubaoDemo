@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  zhifubaoTest
+//
+//  Created by 合一网络 on 16/1/13.
+//  Copyright © 2016年 合一网络. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
